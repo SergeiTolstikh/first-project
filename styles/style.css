@@ -1,6 +1,6 @@
-/*div {
+div {
   border: 1px solid red;
-}*/
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -36,12 +36,16 @@
 
 .header__title {
   width: 730px;
-  line-height: 92px;
-  font-size: 102px;
   margin-left: 64px;
   align-self: center;
-  font-weight: bold;
   z-index: 5;
+}
+.header__h1 {
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 92px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__link {
@@ -116,21 +120,98 @@
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  
 
 }
 
-.paragraph {
+.margin-bottom {
+  margin-bottom: 0;
+}
+
+.two-columns__text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0;
   display: inline-block;
-
+  
 }
-.h1 {
+.two-columns__h1 {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
+}
+
+.digits {
+  margin-top: 100px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.section-title__h1 {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+
+}
+
+.section-subtitle {
+  width: 60%;
+}
+
+.section-subtitle__h2 {
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.table {
+  width: 1100px;
+  padding-top: 60px;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+
+
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__h3 {
+  margin: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.table__heading {
+  margin-bottom: 20px;
+}
+
+.cell__margin {
+  margin-top: 60px;
+}
+
+.text-margin {
+  margin-top: 20px;
 }
