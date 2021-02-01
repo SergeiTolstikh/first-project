@@ -11,6 +11,7 @@ div {
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+/*header*/
 
 .header {
   height: 100vh;
@@ -54,12 +55,16 @@ div {
 
 .header__subtitle {
   width: 388px;
-  line-height: 25px;
-  font-size: 18px;
   position: absolute;
   left:64px;
   bottom: 30px;
   z-index: 4;
+}
+
+.header__text {
+  line-height: 25px;
+  font-size: 18px;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -70,6 +75,11 @@ div {
   height: 608px;
   z-index: 3;
   /*background-size: cover;*/
+}
+
+.header__picture {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -120,7 +130,7 @@ div {
 
 .two-columns__paragraph {
   margin-bottom: 30px;
-  
+
 
 }
 
@@ -134,7 +144,7 @@ div {
   font-weight: normal;
   margin: 0;
   display: inline-block;
-  
+
 }
 .two-columns__h1 {
   font-size: 18px;
@@ -215,3 +225,42 @@ div {
 .text-margin {
   margin-top: 20px;
 }
+
+/*блок feynman*/
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  position: relative;
+  height: 790px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.feynman__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.feynman__title {
+  width: 648px;
+  top: 100px;
+  z-index: 6;
+}
+
+.feynman__h1 {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  margin: 0;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  z-index: 9;
+}
+
+
