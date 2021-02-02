@@ -1,6 +1,10 @@
 div {
   border: 1px solid red;
 }
+
+p {
+  border: 1px solid rgb(3, 52, 158);
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -95,12 +99,7 @@ div {
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 
 .description {
   display: flex;
@@ -165,23 +164,26 @@ div {
 .section-title {
   width: 60%;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .section-title__h1 {
-  text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin: 0;
-
 }
 
 .section-subtitle {
   width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
-.section-subtitle__h2 {
-  text-align: center;
+
+.section-subtitle__h1 {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -190,17 +192,16 @@ div {
 
 .table {
   width: 1100px;
-  padding-top: 60px;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 100px;
-
-
 }
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
+  margin-right: 0;
 }
 
 .table__h3 {
@@ -218,11 +219,7 @@ div {
   margin-bottom: 20px;
 }
 
-.cell__margin {
-  margin-top: 60px;
-}
-
-.text-margin {
+.table__text_margin-top {
   margin-top: 20px;
 }
 
@@ -263,4 +260,49 @@ div {
   z-index: 9;
 }
 
+.feynman__h2 {
+  line-height: 51px;
+  font-size: 36px;
+  margin: 0;
+}
 
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+}
+
+.feynman__h3 {
+  line-height: 51px;
+  font-size: 36px;
+  margin: 0;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.kaufman {
+  padding-top: 90px;
+  background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  margin-bottom: 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
