@@ -74,6 +74,7 @@ h4 {
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__subtitle {
@@ -82,9 +83,6 @@ h4 {
   left:64px;
   bottom: 30px;
   z-index: 4;
-}
-
-.header__text {
   line-height: 25px;
   font-size: 18px;
   margin: 0;
