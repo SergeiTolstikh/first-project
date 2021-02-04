@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
+  <link rel="stylesheet" href="styles/normalize.css">  <!--исправлено-->
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
 
     <header class="header">
 
-      <div class="logo logo_place_header"></div>
+      <img src="../first-project/images/logo_place_header.svg" class="logo logo_place_header"> <!--исправлено по рекомендации-->
 
       <h1 class="header__title">Научиться учиться</h1>
 
@@ -25,7 +25,7 @@
          <a href="#" class="header__link">Узнать →</a>
        </p>
 
-      <div class="header__main-illustration"><img src="../first-project/images/header-image.png" alt="Собирается на учёбу" class="header__main-illustration_size"></div>
+      <img src="../first-project/images/header-image.png" alt="Собирается на учёбу" class="header__main-illustration">  <!--исправлено-->
       <div class="header__square-pic"></div>
     </header>
 
@@ -37,9 +37,9 @@
 
       <section class="description">
         <div class="two-columns">
-          <h3 class="two-columns__brif">Главные проблемы в обучении</h3>
+          <h2 class="two-columns__brif">Главные проблемы в обучении</h2> <!--исправлено-->
           <div class="two-columns__main-text">
-            <p class="two-columns__paragraph two-columns__paragraph_margin-top">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p> <!--исправлено-->
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод: </span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
@@ -52,8 +52,8 @@
       <!--digits начало блока \/-->
       <section class="digits">
 
-        <h3 class="section-title">Цифры и факты</h3>
-        <h4 class="section-subtitle">Про учёбу и мозг</h4>
+        <h2 class="section-title">Цифры и факты</h2> <!--исправлено-->
+        <p class="section-subtitle">Про учёбу и мозг</p> <!--исправлено по рекомендации-->
 
         <div class="table">
 
@@ -111,12 +111,12 @@
       <section class="feynman">
 
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p> <!--исправлено-->
 
         <a href="#" class="feynman__link">Подробнее →</a>
 
-        <div class="feynman__image"><img src="../first-project/images/feynman.png" alt="Ричард Филлипс Фейнман">
-        </div>
+        <img src="../first-project/images/feynman.png" alt="Ричард Филлипс Фейнман" class="feynman__image"> <!--исправлено-->
+
       </section>
 
       <!--feynman конец блока /\-->
@@ -127,7 +127,7 @@
       <section class="kaufman">
 
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p> <!--исправлено по рекомендации-->
 
         <div class="table table_theme_dark">
 
@@ -196,29 +196,29 @@
 
     <footer class="footer">
 
-      <div class="footer__columns">
+      <div class="footer__columns footer__columns_width">
 
-        <div class="footer__columns_content_copyright">
+        <div class="footer__columns footer__columns_content_copyright"> <!--исправлено-->
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; 2021. Сергей Толстых</p>
         </div>
 
-        <div class="footer__columns_content_info">
-          <h4 class="footer__column-heading">о Практикуме</h4>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link">Главная</a>
-            <a href="#" class="footer__column-link">Концепция</a>
-            <a href="#" class="footer__column-link">Наставники</a>
-          </div>
-        </div>
+        <nav class="footer__columns footer__columns_content_info"> <!--исправлено-->
+          <h4 class="footer__column-heading">О Практикуме</h4>
+          <ul class="footer__column-links"> <!--исправлено-->
+            <li><a href="#" class="footer__column-link">Главная</a></li> <!--исправлено-->
+            <li><a href="#" class="footer__column-link">Концепция</a></li> <!--исправлено-->
+            <li><a href="#" class="footer__column-link">Наставники</a></li> <!--исправлено-->
+          </ul> <!--исправлено-->
+        </nav> <!--исправлено-->
 
-        <div class="footer__columns_content_social">
+        <div class="footer__columns footer__columns_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
-          <div class="footer__column-links">
-            <a href="#" class="footer__column-link"><img src="../first-project/images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon">Facebook</a>
-            <a href="#" class="footer__column-link"><img src="../first-project/images/vk_color_white.svg" alt="ВКонтакте" class="footer__social-icon">ВКонтакте</a>
-            <a href="#" class="footer__column-link"><img src="../first-project/images/instagram_color_white.svg" alt="Instagramm" class="footer__social-icon">Instagramm</a>
-          </div>
+          <ul class="footer__column-links"> <!--исправлено по рекомендации-->
+            <li><a href="#" class="footer__column-link"><img src="../first-project/images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon">Facebook</a></li> <!--исправлено по рекомендации-->
+            <li><a href="#" class="footer__column-link"><img src="../first-project/images/vk_color_white.svg" alt="ВКонтакте" class="footer__social-icon">ВКонтакте</a></li> <!--исправлено по рекомендации-->
+            <li><a href="#" class="footer__column-link"><img src="../first-project/images/instagram_color_white.svg" alt="Instagramm" class="footer__social-icon">Instagramm</a></li> <!--исправлено по рекомендации-->
+          </ul>
         </div>
 
       </div>
