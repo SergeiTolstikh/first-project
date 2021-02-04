@@ -304,10 +304,7 @@
   justify-content: space-between;
   padding-top: 60px;
   padding-bottom: 40px;
-}
-
-.footer__columns_width {
-  width: 90%;
+  width: 90%;   /*исправлено*/
 }
 
 .logo_place_footer {
@@ -316,7 +313,7 @@
   display: flex;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -326,7 +323,7 @@
   padding-bottom: 0;   /*исправлено*/
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
   padding-top: 0;
   padding-bottom: 0;
   flex-direction: column;
@@ -369,7 +366,7 @@
   color: white;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   padding-top: 0;
   padding-bottom: 0;
   flex-direction: column;
