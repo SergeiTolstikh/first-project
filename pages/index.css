@@ -1,0 +1,106 @@
+@import url(../vendor/normalize.css);  /*normalize*/
+
+/**page начало\/*/
+@import url(../blocks/page/page.css);
+/**page конец*/
+
+
+/**header начало\/*/
+
+  /**logo начало\/*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+/**logo конец*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__main-illustration/_size/header__main-illustration_size.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+
+/**content начало\/*/
+@import url(../blocks/content/content.css);
+/**content конец*/
+
+/**description начало \/*/
+@import url(../blocks/description/description.css);
+/**.description конец*/
+
+
+/**two-columns начало \/*/
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brif/two-columns__brif.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+/**two-columns конец*/
+
+/**digits начало \/*/
+@import url(../blocks/digits/digits.css);
+/**digits конец*/
+
+/**section-title начало\/*/
+@import url(../blocks/section-title/section-title.css);
+/**section-title конец*/
+
+/**section-subtitle начало\/*/
+@import url(../blocks/section-subtitle/section-subtitle.css);
+/**section-subtitle конец*/
+
+/**table начало\/*/
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);   /*table__cell*/
+@import url(../blocks/table/__heading/table__heading.css);  /*table__heading*/
+@import url(../blocks/table/__text/table__text.css);  /*table__text*/
+/**table конец*/
+
+/** feynman начало \/*/
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css); /*feynman__title*/
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);  /*feynman__subtitle*/
+@import url(../blocks/feynman/__link/feynman__link.css); /*feynman__link*/
+@import url(../blocks/feynman/__image/feynman__image.css); /*feynman__image*/
+/** feynman конец*/
+
+/*блок kaufman начало \/*/
+
+@import url(../blocks/kaufman/kaufman.css);
+
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css); /*section-title_theme_dark*/
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css); /*section-subtitle_theme_dark*/
+
+/**table table_theme_dark начало\/*/
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css); /*table__cell_theme_dark*/
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css); /*kaufman__triangle*/
+/**table table_theme_dark конец*/
+
+/*блок kaufman конец /\*/
+
+/*блок footer начало \/*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+
+
+
+
+
+
+
+
+
+
+
+/*блок footer конец /\*/
