@@ -19,6 +19,7 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__main-illustration/_size/header__main-illustration_size.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/rotation/rotation.css);
 
 /**content начало\/*/
 @import url(../blocks/content/content.css);
@@ -75,6 +76,7 @@
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css); /*table__cell_theme_dark*/
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css); /*kaufman__triangle*/
+@import url(../blocks/rotation/rotation.css);
 /**table table_theme_dark конец*/
 
 /*блок kaufman конец /\*/
