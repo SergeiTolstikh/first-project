@@ -29,6 +29,24 @@
 @import url(../blocks/description/description.css);
 /**.description конец*/
 
+/**techniques начало\/*/
+@import url(../blocks/techniques/techniques.css);
+/**cards начало\/*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+/**techniques конец*/
+
+/**video начало\/*/
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+/**video конец*/
+
+/**oakley начало\/*/
+@import url(../blocks/oakley/oakley.css);
 
 /**two-columns начало \/*/
 @import url(../blocks/two-columns/two-columns.css);
@@ -99,7 +117,9 @@
 
 
 
-
+div {
+  border: 1px solid red;
+}
 
 
 
