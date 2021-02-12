@@ -1,4 +1,6 @@
 .khan {
   display: flex;
   justify-content: center;
+  padding-top: 105px;
+  background-color: #f2f2f2;
 }
