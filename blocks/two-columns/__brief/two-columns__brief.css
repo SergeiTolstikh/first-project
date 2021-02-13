@@ -1,5 +1,6 @@
-.two-columns__brif {
-  width: 175px;
+.two-columns__brief {
+  max-width: 175px;
+  width: 100%;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;

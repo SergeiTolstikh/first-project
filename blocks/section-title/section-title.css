@@ -1,5 +1,5 @@
 .section-title {
-  width: 60%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   margin-bottom: 0;
