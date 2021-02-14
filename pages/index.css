@@ -148,7 +148,7 @@
 
 /**table table_theme_dark начало \/*/
 
-@import url(../blocks/table/_theme/table_theme_dark.css);
+
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css); /*table__cell_theme_dark*/
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css); /*kaufman__triangle*/
 
